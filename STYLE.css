@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+div.maincontent{
+    background-image: url(img/pexels-karolina-grabowska-4464884.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.maincontent h1{
+    text-align: center;
+    color: skyblue
+}
+div.maincontent h3{
+    color:black;
+}
+
+div.foods{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+div.food {
+    text-align: center;
+}
+
+div.food div.img {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    background-image: url(img/pexels-brigitte-tohm-239581.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.food2 div.img {
+    background-image: url(img/pexels-lisa-fotios-1279330.jpg);
+    
+}
+
+div.food3 div.img {
+    background-image: url('img/pexels-pixabay-315755.jpg');
+          
+}
+
+div.food4 div.img {
+    background-image: url(img/pexels-pixabay-357573.jpg);      
+}
